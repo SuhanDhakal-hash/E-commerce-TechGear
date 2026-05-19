@@ -1,0 +1,37 @@
+.category-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: #111;
+}
+
+.category-section h2 {
+  color: cyan;
+  margin-bottom: 30px;
+}
+
+.category-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.category-card {
+  width: 180px;
+  padding: 25px;
+  background: #222;
+  border-radius: 12px;
+  color: white;
+  transition: 0.3s;
+}
+
+.category-card:hover {
+  background: cyan;
+  color: black;
+  transform: translateY(-8px);
+}
+
+.category-icon {
+  font-size: 45px;
+  margin-bottom: 10px;
+}

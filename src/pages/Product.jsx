@@ -1,4 +1,5 @@
 import "./Product.css";
+import Categories from "../Component/Categories";
 
 function Products() {
 
@@ -50,6 +51,8 @@ function Products() {
     <div className="products-page">
 
       <h1>Our Products</h1>
+         {/* Categories Section */}
+      <Categories />
 
       <div className="products-grid">
 
