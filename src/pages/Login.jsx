@@ -1,8 +1,10 @@
 import "./Login.css";
+import Navbar from "../Component/Navbar";
 
 function Login() {
   return (
     <div className="login-container">
+      <Navbar />
 
       <div className="login-box">
 
@@ -11,6 +13,12 @@ function Login() {
         <input type="email" placeholder="Email" />
 
         <input type="password" placeholder="Password" />
+
+        <label>
+          <input type="checkbox" />
+          Remember me
+        </label>
+        
 
         <button>Login</button>
 

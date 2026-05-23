@@ -14,7 +14,7 @@ body {
   background-attachment: fixed;
 }
 
-/* ─── Navbar ─── */
+
 .navbar {
   display: flex;
   align-items: center;
@@ -68,13 +68,13 @@ body {
 
 .nav-links li {
   font-size: 0.875rem;
-  color: white;
+  color: black;
   cursor: pointer;
   transition: color 0.2s;
 }
 
 .nav-links li:hover {
-  color: #ffffff;
+  color: black;
 }
 
 /* ─── Auth Buttons (THE FIX) ─── */
@@ -326,7 +326,7 @@ body {
   line-height: 1.6;
 }
 
-/* ─── Responsive ─── */
+
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;

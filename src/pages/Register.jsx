@@ -1,19 +1,25 @@
 import React from "react";
 import "./Register.css";
+import Navbar from "../Component/Navbar";
 
 function Register() {
-  return (
+  return(
+    
     <div className="register-container">
+      <Navbar />
       <div className="register-box">
         <h1 className="logo">TeachGear</h1>
         <h2>Create Your Account</h2>
 
         <form>
           <input type="text" placeholder="Full Name" required />
-          <input type="email" placeholder="Email Address" required />
+          <input type="email" placeholder="Email/Username" required />
+          <input type="text" placeholder="Address" required />
+          <input type="city" placeholder="City" required />
+          <input type="text" placeholder="Gender" required />
           <input type="tel" placeholder="Phone Number" required />
           <input type="password" placeholder="Password" required />
-          <input type="password" placeholder="Confirm Password" required />
+          <input typde="password" placeholder="Confirm Password" required />
 
           <button type="submit">Register</button>
         </form>

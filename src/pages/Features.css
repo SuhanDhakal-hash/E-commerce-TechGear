@@ -1,3 +1,12 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1920&auto=format&fit=crop");
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .features-page {
   background: #111;
   color: white;
@@ -5,7 +14,7 @@
   font-family: Arial, sans-serif;
 }
 
-/* HERO */
+
 .features-hero {
   text-align: center;
   padding: 70px 20px;
@@ -22,7 +31,7 @@
   font-size: 18px;
 }
 
-/* FEATURES GRID */
+
 .features-container {
   display: flex;
   flex-wrap: wrap;

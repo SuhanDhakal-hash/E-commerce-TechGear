@@ -1,6 +1,7 @@
 import "./Product.css";
 import Categories from "../Component/Categories";
 
+
 function Products() {
 
   const products = [
