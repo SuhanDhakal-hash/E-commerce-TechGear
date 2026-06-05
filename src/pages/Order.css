@@ -1,0 +1,44 @@
+.orders-container {
+  padding: 20px;
+}
+
+.orders-container h1 {
+  margin-bottom: 20px;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.orders-table th,
+.orders-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.orders-table th {
+  background: #1e293b;
+  color: white;
+}
+
+.view-btn,
+.update-btn {
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.view-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.update-btn {
+  background: #16a34a;
+  color: white;
+}

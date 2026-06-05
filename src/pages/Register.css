@@ -6,22 +6,21 @@
 }
 
 .register-container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #f4f7fc;
-      background-image: url("https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1920&auto=format&fit=crop");
-
+  min-height: 80vh;
+  display:flex;
+background-image: url("https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1920&auto=format&fit=crop");
+  background-size: cover;
+  background-position: center;
+  justify-content :center;
+  align-items:center;
 }
-
 .register-box {
-  width: 400px;
-  background: white;
-  padding: 35px;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  text-align: center;
+width: 450px;
+margin:40px auto;
+  background: rgba(255,255,255,0.95);
+padding: 35px;
+border-radius: 12px;
+box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 .logo {

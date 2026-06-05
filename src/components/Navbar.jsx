@@ -9,14 +9,10 @@ function Navbar() {
 
     
       <div className="navbar-logo">
-        <h2>TECHGEAR</h2>
+        <h2>TECHGEAR.ACC</h2>
       </div>
 
-      
-      
-
-      
-      <ul className="navbar-links">
+       <ul className="navbar-links">
 
         <li>
           <Link to="/">Home</Link>
