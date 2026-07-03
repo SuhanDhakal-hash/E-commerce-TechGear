@@ -76,3 +76,18 @@
 .cart-btn:hover {
   opacity: 0.9;
 }
+.logout-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #bb2d3b;
+}

@@ -9,6 +9,7 @@ import Features from "./pages/Features";
 import Navbar from "./components/Navbar"; 
 import Footer from "./components//Footer";
 import Orders from "./pages/Order"; 
+import CustomerDashboard from"./pages/CustomerDashboard";
 function App() {
   return (
     <BrowserRouter>
@@ -22,6 +23,7 @@ function App() {
         <Route path="/features" element={<Features />} />
        <Route path="/orders" element={<Orders />} />
 <Route path="/admin" element={<AdminDashboard/>} />
+<Route path="/CustomerDashboard" element={<CustomerDashboard/>} />
 </Routes>
       <Footer />
     </BrowserRouter>
